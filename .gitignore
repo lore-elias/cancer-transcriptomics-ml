@@ -1,0 +1,39 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Conda environment files
+.env
+
+# Environment variables and credentials
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+
+# Local configuration
+.vscode/
+
+# Large biological datasets (keep data out of Git)
+data/raw/*
+data/processed/*
+
+# Trained models and generated outputs
+results/models/*
+results/figures/*
